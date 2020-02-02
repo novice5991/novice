@@ -3,13 +3,13 @@
   <mat-toolbar-row>
     <span>Novice</span>
     <span class="example-spacer"></span>
-    <button mat-icon-button aria-label="Example icon-button with a home icon" matTooltip="Home">
+    <button [routerLink]="['/home']" mat-icon-button aria-label="Example icon-button with a home icon" matTooltip="Home">
       <mat-icon>home</mat-icon>
     </button>
     <button mat-icon-button aria-label="Example icon-button with a about icon" matTooltip="About Us">
       <mat-icon>account_circle</mat-icon>
     </button>
-    <button mat-icon-button aria-label="Example icon-button with a work icon" matTooltip="Projects">
+    <button [routerLink]="['/projects']" mat-icon-button aria-label="Example icon-button with a work icon" matTooltip="Projects">
       <mat-icon>work</mat-icon>
     </button>
     <button mat-icon-button aria-label="Example icon-button with a cntactf icon" matTooltip="Contact Us">
