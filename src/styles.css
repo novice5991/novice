@@ -12,3 +12,8 @@ body {
   font-size: 8pt;
   float: right;
 }
+
+a, a:hover, a:focus, a:active {
+      text-decoration: none;
+      color: inherit;
+ }
