@@ -4,13 +4,14 @@ import { FormsModule } from '@angular/forms';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 import { AppMaterialModule } from './app-material.module';
+import { AppRoutingModule } from "./app-routing.module";
 
 import { AppComponent } from './app.component';
 import { TopHeaderComponent } from './components/top-header/top-header.component';
 import { BottomFooterComponent } from './components/bottom-footer/bottom-footer.component';
 
 @NgModule({
-  imports:      [ BrowserModule, FormsModule,BrowserAnimationsModule, AppMaterialModule ],
+  imports:      [ BrowserModule, FormsModule,BrowserAnimationsModule, AppMaterialModule, AppRoutingModule ],
   declarations: [ AppComponent, TopHeaderComponent, BottomFooterComponent ],
   bootstrap:    [ AppComponent ]
 })
