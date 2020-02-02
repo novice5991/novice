@@ -18,4 +18,4 @@ import {
     MatIconModule,
   ]
 })
-export class AppMaterialModule {}
+export class HomeMaterialModule {}
