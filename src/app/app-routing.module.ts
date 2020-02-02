@@ -8,10 +8,14 @@ const routes: Routes = [
     redirectTo: "home"
   },
   { 
+    path: 'about-us',
+    loadChildren: () => import(`./modules/about-us/about-us.module`).then(m => m.AboutUsModule) 
+  },
+  { 
     path: 'home',
     loadChildren: () => import(`./modules/home/home.module`).then(m => m.HomeModule) 
   },
-  { 
+  {
     path: 'projects',
     loadChildren: () => import(`./modules/projects/projects.module`).then(m => m.ProjectsModule) 
   }
